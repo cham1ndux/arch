@@ -1,1 +1,5 @@
-yay -S hyprland-bin polkit-gnome ffmpeg neovim viewnior dunst rofi pavucontrol thunar starship wl-clipboard wf-recorder swaybg grimblast-git ffmpegthumbnailer tumbler playerctl noise-suppression-for-voice thunar-archive-plugin kitty waybar-hyprland wlogout swaylock-effects sddm-git nwg-look-bin nordic-theme papirus-icon-theme pamixer
+sudo pacman -S --needed xorg 
+sudo pacman -S --needed gnome gnome-tweaks nautilus-sendto gnome-nettool gnome-usage gnome gnome-multi-writer adwaita-icon-theme xdg-user-dirs-gtk fwupd arc-gtk-theme seahosrse gdm
+sudo pacman -S --needed firefox vlc filezilla leafpad xscreensaver archlinux-wallpaper
+systemctl enable gdm
+systemctl enable NetworkManager
